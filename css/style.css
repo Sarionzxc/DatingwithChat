@@ -1,0 +1,42 @@
+ html, body {
+    overflow-x: hidden;
+   
+}
+
+.w-450 {
+	width: 450px;
+}
+.vh-100 {
+	min-height: 100vh;
+}
+.w-250 {
+	width: 250px;
+}
+
+
+/*sign up*/
+.image-container {
+    width: 50%; 
+    float: left;
+    min-width: 50vw;
+}
+
+.form-container {
+    width: 50%; 
+    float: left;
+    padding: 100px;
+
+}
+
+
+/*login*/
+.image-container {
+	width: 50%; 
+	float: right;
+
+}
+
+.form-container {
+	width: 50%; 
+	float: right;
+}

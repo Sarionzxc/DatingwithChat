@@ -1,0 +1,21 @@
+
+.online-status-container {
+    width: 200px; 
+    bottom: 25px;
+    left: 140px;
+    position: relative;
+    display: inline-block;
+}
+
+
+#online-status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green; /* Online status*/
+    transition: background-color 0.3s;
+}
+
+#online-status.offline {
+    background-color: red; /* Offline status  */
+}
